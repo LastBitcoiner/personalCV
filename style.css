@@ -1,3 +1,45 @@
 /*.main {
   vertical-align: center;
 }*/
+
+.img-max {
+  max-width: 512px;
+  width: 80%;
+  margin: auto;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.vertical-center {
+  margin-top: 1.5em;
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.fab,
+.fas {
+  font-size: xx-large;
+  position: relative;
+}
+
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  line-height: 65px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+.social-lines {
+  margin-left: 1.5em;
+  text-align: left;
+}
+
+/*
+.social-lines {
+  text-align: left;
+}*/
