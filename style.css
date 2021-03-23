@@ -1,7 +1,14 @@
 /*.main {
   vertical-align: center;
 }*/
+@import "/fonts/css/font-style.css";
 
+h4 {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4em;
+}
 .img-max {
   max-width: 512px;
   width: 80%;
@@ -36,7 +43,7 @@
 }
 .social-lines {
   margin-left: 1.5em;
-  text-align: left;
+  text-align: center;
 }
 
 /*
