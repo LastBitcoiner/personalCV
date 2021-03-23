@@ -9,6 +9,7 @@ h4 {
   font-weight: normal;
   line-height: 1.4em;
 }
+
 .img-max {
   max-width: 512px;
   width: 80%;
@@ -34,16 +35,20 @@ h4 {
 }
 
 .btn-circle {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   line-height: 65px;
   text-align: center;
   padding: 0;
   border-radius: 50%;
 }
+
 .social-lines {
-  margin-left: 1.5em;
-  text-align: center;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  padding-left: 6em;
+  text-align: left;
 }
 
 /*
