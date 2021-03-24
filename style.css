@@ -3,6 +3,9 @@
 }*/
 @import "/fonts/css/font-style.css";
 
+h2 {
+  font-weight: 400;
+}
 h4 {
   font-family: IRANSans;
   font-style: normal;
@@ -28,8 +31,7 @@ h4 {
   align-items: center;
 }
 
-.fab,
-.fas {
+.social-icon {
   font-size: xx-large;
   position: relative;
 }
@@ -41,16 +43,24 @@ h4 {
   text-align: center;
   padding: 0;
   border-radius: 50%;
+  color: #ff8cc8;
+  border-color: #ff8cc8;
 }
 
 .social-lines {
+  font-weight: 500;
   margin-top: 0.5em;
   display: flex;
   justify-content: center;
-  padding-left: 6em;
   text-align: left;
+  direction: ltr;
 }
 
+@media all and (min-width: 550px) {
+  .social-lines {
+    padding-left: 3.5em;
+  }
+}
 /*
 .social-lines {
   text-align: left;
